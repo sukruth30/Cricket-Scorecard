@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: solid black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style:none;
+}
+li{
+   float: left; 
+}
+a{
+    padding: 20px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+span{
+    color: maroon;
+    font-weight: bolder;
+    
+}
+span[id="TEAMA"]{
+    color: red;
+}
+span[id="TEAMB"]{
+    color: blue;
+}
+input[type=text]{
+    width: 10px;
+    border-radius: 30px;
+}
+p{
+    padding: auto;
+}
+button{
+    padding: 20px;
+    padding-right: 60px ;
+}
+table{
+    border: inline;
+}
